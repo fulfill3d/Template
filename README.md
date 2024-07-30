@@ -1,0 +1,1 @@
+A Function App Template with .NET 8 - isolated worker

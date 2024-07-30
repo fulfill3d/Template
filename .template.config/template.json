@@ -1,0 +1,34 @@
+{
+  "author": "A. Gazi Yavuz",
+  "classifications": [ "Azure", "Functions", "FaaS", ".NET8", "isolated-worker" ],
+  "name": "NewFaaS",
+  "identity": "uckmhnds.newfaas",
+  "shortName": "newfaas",
+  "tags": {
+    "language": "C#",
+    "type": "solution"
+  },
+  "sourceName": "Template",
+  "preferNameDirectory": true,
+  "symbols": {
+    "FunctionProjectName": {
+      "type": "parameter",
+      "defaultValue": "Template",
+      "replaces": "Template",
+      "description": "Name of the Azure Functions project"
+    },
+    "DataProjectName": {
+      "type": "parameter",
+      "defaultValue": "Template.Data",
+      "replaces": "Template.Data",
+      "description": "Name of the Data project"
+    },
+    "ServiceProjectName": {
+      "type": "parameter",
+      "defaultValue": "Template.Services",
+      "replaces": "Template.Services",
+      "description": "Name of the Services project"
+    }
+  },
+  "postActions": []
+}
