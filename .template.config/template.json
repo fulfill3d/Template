@@ -34,17 +34,16 @@
     {
       "actionId": "4378c6cf-ef24-416c-9e14-8e2f1f949c41",
       "args": {
-        "executable": "cmd",
-        "args": "/c rmdir /s /q .git"
+        "executable": "sh",
+        "args": "-c \"rm -rf .git\""
       },
       "manualInstructions": [
         {
-          "text": "Run 'rmdir /s /q .git' to remove the .git directory."
+          "text": "Run 'rm -rf .git' to remove the .git directory."
         }
       ],
       "continueOnError": true,
       "description": "Removes the .git directory."
     }
   ]
-
 }
