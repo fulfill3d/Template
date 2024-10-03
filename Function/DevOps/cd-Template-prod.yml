@@ -1,0 +1,20 @@
+trigger: none
+pr: none
+
+pool:
+  vmImage: 'windows-latest'
+
+variables:
+  ciPipeline: 'ci-Template-main'
+  functionAppName: 'function-app-name-in-azure-portal'
+  packageName: 'PACKAGE_NAME'
+  project: 'PROJECT_NAME'
+
+resources:
+  pipelines:
+    - pipeline: ciTemplateMain
+      source: 'ci-Template-main'
+      trigger: true
+
+steps:
+  - template: path/to/cd/pipeline/template.yml

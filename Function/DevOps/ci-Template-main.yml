@@ -1,0 +1,15 @@
+trigger:
+  branches:
+    include:
+      - main
+  paths:
+    include:
+      - '/IncludeTheDeps/*'
+
+variables:
+  vmImageName: 'windows-latest'
+  workingDirectory: '$(System.DefaultWorkingDirectory)/working/directory'
+  packageName: 'PACKAGE_NAME'
+
+steps:
+  - template: path/to/ci/pipeline/template.yml
