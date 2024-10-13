@@ -8,12 +8,9 @@ The Template Project is a foundational template for building modern .NET applica
 1. [Introduction](#introduction)
 2. [Features](#features)
 3. [Tech Stack](#tech-stack)
-4. [Installation](#installation)
 5. [Usage](#usage)
 6. [Configuration](#configuration)
 7. [Contributing](#contributing)
-8. [License](#license)
-9. [Contact](#contact)
 
 ## Introduction
 
@@ -33,24 +30,6 @@ The Template Project provides a comprehensive starting point for developing .NET
 - **Database:** SQL Server (via Entity Framework Core)
 - **Validation:** FluentValidation
 - **Configuration & Secrets Management:** Azure App Configuration, Azure Key Vault
-
-## Installation
-
-### Prerequisites
-- .NET 8 SDK
-- Azure account and services setup (e.g., Azure App Configuration, Key Vault)
-
-### Setup
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-repo/template.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd template
-   ```
-3. Configure the project settings and deploy it to Azure.
 
 ## Usage
 
@@ -76,19 +55,3 @@ public class TemplateOptions
     public string Option2 { get; set; }
 }
 ```
-
-## Contributing
-
-We welcome contributions from the community. Please read our Contributing Guidelines to learn how to get involved.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
-
-## Contact
-
-For inquiries or support, please contact us at [support@example.com](mailto:support@example.com).
-
----
-
-Thank you for using the Template Project! We hope it provides a solid foundation for your .NET application development.
